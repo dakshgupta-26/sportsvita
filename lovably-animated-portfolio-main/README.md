@@ -1,167 +1,252 @@
-# 🏆 Premium Live Sports Score Dashboard
+# 🚀 Lovably Animated Portfolio
 
-## 🚀 Features
+A stunning, modern portfolio website built with React, TypeScript, and cutting-edge animations. Features a Gen-Z aesthetic with neon gradients, glassmorphism effects, and interactive sports-themed components.
 
-### ✅ **Real-Time Live Scores**
-- **Auto-refresh**: Updates every 15 seconds automatically
-- **Manual refresh**: Floating action button and refresh controls
-- **Multiple APIs**: Cricket, Football, Basketball support
-- **Current 2025 Data**: All matches show current year data
-- **Live Updates**: Scores change in real-time with animations
+![Portfolio Preview](https://img.shields.io/badge/Status-Ready%20for%20Deployment-brightgreen)
+![React](https://img.shields.io/badge/React-18.3.1-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-blue)
+![Vite](https://img.shields.io/badge/Vite-5.4.1-purple)
 
-### 🎨 **Premium Design**
-- **Glassmorphism Cards**: Modern glass-like effects
-- **Neon Glow Effects**: Glowing buttons and status indicators
-- **3D Hover Effects**: Cards lift and scale on hover
-- **Premium Typography**: Orbitron (futuristic) and Poppins fonts
-- **Gradient Backgrounds**: Beautiful purple-to-slate gradients
+## ✨ Features
 
-### 🎬 **Stunning Animations**
-- **Page Transition**: Beautiful loading animation with particles
-- **Sticky Header**: Glowing "LIVE SCORES" button with real-time clock
-- **Micro-interactions**: Hover effects, scale animations, shimmer effects
-- **Live Status Indicators**: Pulsing dots and animated icons
-- **Score Update Animations**: Smooth transitions when scores change
+### 🎨 **Modern Design System**
+- **Neon Gradients** - Ultra-modern color palette with glowing effects
+- **Glassmorphism** - Translucent glass-like components
+- **Responsive Design** - Perfect on all devices
+- **Dark Theme** - Eye-friendly dark mode
+- **Custom Animations** - Smooth transitions and micro-interactions
 
-### 📱 **Modern UI/UX**
-- **Responsive Design**: Works on mobile, tablet, desktop
-- **Sport Filter Tabs**: Easy switching between sports
-- **Auto-refresh Toggle**: Enable/disable automatic updates
-- **Loading Skeletons**: Beautiful shimmer loading states
-- **Floating Action Button**: Quick refresh access
-- **Live Indicator**: Real-time status display
+### 🏆 **Sports Integration**
+- **Live Score Board** - Real-time sports updates
+- **Player Cards** - Interactive athlete profiles
+- **Team Sections** - Dynamic team displays
+- **Sports Statistics** - Engaging data visualization
 
-### 🔄 **Auto-Update System**
-- **15-second intervals**: Automatic refresh every 15 seconds
-- **Background updates**: Continues updating even when tab is not active
-- **Visual feedback**: Loading animations and status indicators
-- **Error handling**: Graceful fallback to mock data if API fails
+### 🛠️ **Technical Stack**
+- **React 18** - Latest React with concurrent features
+- **TypeScript** - Type-safe development
+- **Vite** - Lightning-fast build tool
+- **Tailwind CSS** - Utility-first styling
+- **Framer Motion** - Advanced animations
+- **Three.js** - 3D graphics and effects
+- **React Router** - Client-side routing
+- **Shadcn/ui** - Modern UI components
 
-## 🎯 **Latest Live Matches (Last 1-5 Days)**
+### 📱 **Pages & Components**
+- **Home** - Landing page with hero section
+- **About** - Personal information and skills
+- **Portfolio** - Project showcase
+- **Services** - Offered services
+- **Contact** - Contact form and details
+- **Blog** - Blog posts and articles
+- **Shop** - E-commerce section
+- **News** - Latest updates
+- **Live Scores** - Sports live updates
 
-### Cricket 🏏
-- **India vs England** - Test Series 2025 (Today) 🏏 **LIVE**
-- **Australia vs England** - Ashes Series 2025 (2 days ago) **FINISHED** ✅
-- **Pakistan vs New Zealand** - T20I Series 2025 (3 days ago) **FINISHED** ✅
+## 🚀 Quick Start
 
-### Football ⚽
-- **Arsenal vs Chelsea** - Premier League 2024/25 (Today) **LIVE**
-- **Barcelona vs Atletico Madrid** - La Liga 2024/25 (Yesterday) **FINISHED** ✅
-- **Bayern Munich vs Dortmund** - Bundesliga 2024/25 (4 days ago) **FINISHED** ✅
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
 
-### Basketball 🏀
-- **Lakers vs Warriors** - NBA Regular Season 2024/25 (Today) **LIVE**
-- **Celtics vs 76ers** - NBA Regular Season 2024/25 (Yesterday) **FINISHED** ✅
+### Installation
 
-## 🚀 **How to Use**
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/lovably-animated-portfolio.git
 
-1. **Navigate to Live Scores**: Click "Live Scores" in the navigation
-2. **View Matches**: See live matches in beautiful card format
-3. **Filter Sports**: Use the sport filter tabs to view specific sports
-4. **Auto-refresh**: Toggle automatic updates on/off
-5. **Manual Refresh**: Use the floating action button or refresh button
-6. **View Details**: Click "View Details" on any match card
+# Navigate to project directory
+cd lovably-animated-portfolio
 
-## 🔧 **API Integration**
+# Install dependencies
+npm install
 
-The page is set up to work with real sports APIs. Currently using mock data with 2025 data, but you can easily integrate:
-
-- **Cricket API**: `https://api.cricapi.com/v1/currentMatches`
-- **Football API**: `https://www.football-data.org/`
-- **Basketball API**: `https://api.balldontlie.io/v1/games`
-
-Just replace the `fetchLiveScores` function with your preferred API endpoint.
-
-## 🎨 **Design Highlights**
-
-- **Futuristic Typography**: Orbitron font for headings
-- **Premium Gradients**: Blue to purple color schemes
-- **Glass Effects**: Translucent cards with blur
-- **Neon Accents**: Glowing elements for live status
-- **Smooth Animations**: 60fps animations throughout
-- **Mobile Optimized**: Perfect on all screen sizes
-
-## 🛠 **Tech Stack**
-
-- **React 18** with TypeScript
-- **Framer Motion** for animations
-- **React Query** for data fetching
-- **Tailwind CSS** for styling
-- **Lucide React** for icons
-- **Vite** for build tooling
-
----
-
-**Access the Live Score page at `/live-scores`** 🚀
-
-## Project info
-
-**URL**: https://lovable.dev/projects/3ef62661-64d3-4955-aef5-6f9dc8e84586
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/3ef62661-64d3-4955-aef5-6f9dc8e84586) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Available Scripts
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run dev          # Start development server
+npm run build        # Build for production
+npm run preview      # Preview production build
+npm run lint         # Run ESLint
+```
 
-**Use GitHub Codespaces**
+## 🎯 Project Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+lovably-animated-portfolio/
+├── src/
+│   ├── components/          # Reusable UI components
+│   │   ├── ui/             # Shadcn/ui components
+│   │   ├── AnimatedNav.tsx # Animated navigation
+│   │   ├── LiveScoreBoard.tsx # Sports score board
+│   │   └── ThreeScene.tsx  # 3D graphics
+│   ├── pages/              # Page components
+│   ├── assets/             # Images and static files
+│   ├── hooks/              # Custom React hooks
+│   ├── styles/             # CSS files
+│   └── contexts/           # React contexts
+├── public/                 # Static assets
+├── dist/                   # Production build
+└── netlify.toml           # Netlify configuration
+```
 
-## What technologies are used for this project?
+## 🌟 Key Components
 
-This project is built with:
+### 🎮 Interactive Elements
+- **Animated Navigation** - Smooth menu transitions
+- **Infinite Marquee** - Scrolling content
+- **Image Hover Effects** - Interactive image galleries
+- **Neon Ripple Effects** - Click animations
+- **Scroll Animations** - Parallax and reveal effects
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### 🏈 Sports Features
+- **Live Score Board** - Real-time sports data
+- **Player Cards** - Athlete profiles with stats
+- **Team Sections** - Dynamic team displays
+- **Trending Players** - Popular athletes showcase
 
-## How can I deploy this project?
+### 🎨 Design Elements
+- **Glass Cards** - Translucent component design
+- **Neon Glows** - Bright accent colors
+- **Gradient Backgrounds** - Modern color schemes
+- **Custom Scrollbars** - Styled scroll indicators
 
-Simply open [Lovable](https://lovable.dev/projects/3ef62661-64d3-4955-aef5-6f9dc8e84586) and click on Share -> Publish.
+## 🚀 Deployment
 
-## Can I connect a custom domain to my Lovable project?
+### Netlify Deployment (Recommended)
 
-Yes, you can!
+This project is pre-configured for Netlify deployment:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. **Push to GitHub**
+   ```bash
+   git add .
+   git commit -m "Ready for deployment"
+   git push origin main
+   ```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+2. **Deploy on Netlify**
+   - Go to [netlify.com](https://netlify.com)
+   - Click "New site from Git"
+   - Connect your GitHub repository
+   - Build settings are auto-detected:
+     - Build command: `npm run build`
+     - Publish directory: `dist`
+
+### Manual Deployment
+
+```bash
+# Build the project
+npm run build
+
+# The dist folder contains your production files
+# Upload dist/ contents to your hosting provider
+```
+
+## 🔧 Configuration Files
+
+### `netlify.toml`
+```toml
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+```
+
+### `public/_redirects`
+```
+/*    /index.html   200
+```
+
+## 🎨 Customization
+
+### Colors & Themes
+The project uses CSS custom properties for easy theming:
+
+```css
+:root {
+  --neon-purple: 270 100% 70%;
+  --neon-cyan: 195 100% 70%;
+  --neon-pink: 300 100% 70%;
+  --neon-green: 120 100% 70%;
+  --neon-orange: 30 100% 70%;
+}
+```
+
+### Adding New Pages
+1. Create component in `src/pages/`
+2. Add route in `src/App.tsx`
+3. Update navigation if needed
+
+### Styling Components
+- Use Tailwind CSS classes for styling
+- Custom CSS in `src/styles/` directory
+- Component-specific styles in component files
+
+## 📱 Responsive Design
+
+The portfolio is fully responsive with:
+- **Mobile-first** approach
+- **Breakpoint system** for all screen sizes
+- **Touch-friendly** interactions
+- **Optimized images** for different devices
+
+## 🔍 SEO & Performance
+
+- **Meta tags** for social sharing
+- **Open Graph** images
+- **Structured data** for search engines
+- **Optimized images** and assets
+- **Fast loading** with Vite build optimization
+
+## 🛠️ Development
+
+### Code Style
+- **ESLint** configuration included
+- **Prettier** formatting
+- **TypeScript** strict mode
+- **Component-based** architecture
+
+### Adding Dependencies
+```bash
+npm install package-name
+```
+
+### Building for Production
+```bash
+npm run build
+```
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## 📞 Support
+
+For support and questions:
+- Create an issue on GitHub
+- Contact: [your-email@example.com]
+- Portfolio: [your-portfolio-url]
+
+---
+
+**Built with ❤️ using React, TypeScript, and modern web technologies**
+
+⭐ **Star this repository if you find it helpful!**
